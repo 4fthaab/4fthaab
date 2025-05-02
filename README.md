@@ -1,3 +1,5 @@
+![](https://github-readme-stats.vercel.app/api?username=4fthaab&theme=dark&hide_border=false&include_all_commits=false&count_private=false&cache_bust=1)
+
 # 👋🏻 About Me:
 👋 Hi, I’m Afthab Rahman<br>🖥️ Interested in Web Development and Data Science<br>🎓 Currently a Third Year B.Tech CSE student.<br>🔗 Looking to collaborating with socially relevant open source projects<br>📫 Mail me @ afthabrahman0808@gmail.com<br>ℹ️ Connect me @ www.linkedin.com/in/afthaab-rahman
 
