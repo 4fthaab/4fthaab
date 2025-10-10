@@ -1,5 +1,5 @@
 # 👋🏻 About Me:
-👋 Hi, I’m Afthab Rahman<br>🖥️ Interested in Web Development and Data Science<br>🎓 Currently a Final Year B.Tech CSE student<br>🔗 Looking to collaborating with socially relevant open source projects<br>📫 Mail me @ afthabrahman0808@gmail.com<br>ℹ️ Connect me @ www.linkedin.com/in/afthaab-rahman
+👋 Hi, I’m Afthab Rahman<br>🖥️ Interested in Web Development and Data Science<br>🎓 Currently a Final Year B.Tech CSE student<br>🔗 Looking to collaborating with socially relevant open source projects<br><br>🙋🏻 Portfolio : www.afthabrahman.tech <br>📫 Mail me @ afthabrahman0808@gmail.com<br>ℹ️ Connect me @ www.linkedin.com/in/afthaab-rahman
 
 
 ## 🌐 Socials:
