@@ -31,7 +31,7 @@ jobs:
 
       # 🔥 Streak Card
       - name: Generate streak card
-        uses: DenverCoder1/github-readme-streak-stats@v1
+        uses: DenverCoder1/github-readme-streak-stats@main
         with:
           user: ${{ github.repository_owner }}
           theme: dark
