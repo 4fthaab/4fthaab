@@ -31,10 +31,11 @@ jobs:
 
       # 🔥 Streak Card
       - name: Generate streak card
-        uses: readme-tools/github-readme-streak-stats-action@v1
+        uses: DenverCoder1/github-readme-streak-stats@v1
         with:
-          options: user=${{ github.repository_owner }}&theme=dark
-          path: profile/streak.svg
+          user: ${{ github.repository_owner }}
+          theme: dark
+          output: profile/streak.svg
 
       # 💾 Commit & Push
       - name: Commit cards
