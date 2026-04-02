@@ -11,4 +11,4 @@
 # 📊 GitHub Stats:
 ![Stats](./profile/stats.svg)
 ![Top Langs](./profile/top-langs.svg)
-![Streak](./profile/streak.svg)
+![Streak](https://streak-stats.demolab.com?user=4fthaab&theme=dark)
