@@ -2,15 +2,18 @@ name: Update README cards
 
 on:
   schedule:
-    - cron: "0 3 * * *"
-  workflow_dispatch:
+    - cron: "0 3 * * *"   # runs daily
+  workflow_dispatch:       # allows manual run
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # 📊 Main Stats Card
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
@@ -18,6 +21,22 @@ jobs:
           options: username=${{ github.repository_owner }}&show_icons=true&theme=dark
           path: profile/stats.svg
 
+      # 🧠 Top Languages Card
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=dark
+          path: profile/top-langs.svg
+
+      # 🔥 Streak Card
+      - name: Generate streak card
+        uses: readme-tools/github-readme-streak-stats-action@v1
+        with:
+          options: user=${{ github.repository_owner }}&theme=dark
+          path: profile/streak.svg
+
+      # 💾 Commit & Push
       - name: Commit cards
         run: |
           git config user.name "github-actions"
